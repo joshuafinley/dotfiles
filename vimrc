@@ -34,10 +34,10 @@ let test#strategy = "tslime"
 
 let test#ruby#rspec#executable = 'NO_RENDERER=true bundle exec rspec'
 
-" Toggle nerdtree with F10
-map <F10> :NERDTreeToggle<CR>
+" Toggle nerdtree with F4
+map <F5> :NERDTreeToggle<CR>
 " Current file in nerdtree
-map <F9> :NERDTreeFind<CR>
+map <F4> :NERDTreeFind<CR>
 
 " Reduce timeout after <ESC> is recieved.
 set ttimeout
